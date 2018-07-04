@@ -15,12 +15,12 @@ side_bar_repo_limit: 5
 # ---------------- #
 #      Author      #
 # ---------------- #
-author: Zhuang Ma
-organization: zkh360.com
-organization_url: http://www.zkh360.com
-github_username: mzlogin
-location: Wuhan, China
-email: chumpma@gmail.com
+author: zhen ganlin
+organization: 恒昌
+organization_url: http://www.hengyidai.com
+github_username: ganlinzhen
+location: Beijing, China
+email: 891564843@qq.com
 
 # ---------------- #
 #    Navigation    #
@@ -34,9 +34,9 @@ navs:
     href: /categories/
     label: 分类
 
-#   -
-#     href: /archives/
-#     label: 归档
+  -
+    href: /archives/
+    label: 归档
 
   -
     href: /wiki/
