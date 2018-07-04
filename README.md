@@ -24,6 +24,10 @@
 
 Fork 本项目之后，还需要做一些事情才能让你的页面「正确」跑起来。
 
+```
+bundle exec jekyll serve
+```
+
 1. 正确设置项目名称与分支。
 
    按照 GitHub Pages 的规定，名称为 `username.github.io` 的项目的 master 分支，或者其它名称的项目的 gh-pages 分支可以自动生成 GitHub Pages 页面。
@@ -59,6 +63,12 @@ Fork 本项目之后，还需要做一些事情才能让你的页面「正确」
 
 2. 在本地预览博客效果可以参考 [Setting up your Pages site locally with Jekyll][2]。
 
+3. 本地预览命令：
+
+   ```shell
+   bundle exec jekyll serve
+   ```
+
 ## 经验与思考
 
 * 简约，尽量每个页面都不展示多余的内容。
@@ -75,7 +85,7 @@ Fork 本项目之后，还需要做一些事情才能让你的页面「正确」
 
 ## 致谢
 
-本博客外观基于 [DONGChuan](https://dongchuan.github.io) 修改，感谢！
+本博客外观基于 [@mazhuang](https://mzlogin.github.io) 修改，感谢！
 
 [1]: https://github.com/mzlogin/chinese-copywriting-guidelines
 [2]: https://help.github.com/articles/setting-up-your-pages-site-locally-with-jekyll/
