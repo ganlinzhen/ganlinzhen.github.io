@@ -1,7 +1,3 @@
-# 码志
-
-我的个人博客：<https://mazhuang.org>，欢迎 Star 和 Fork。
-
 ## 概览
 
 <!-- vim-markdown-toc GFM -->
@@ -23,10 +19,6 @@
 ## Fork 指南
 
 Fork 本项目之后，还需要做一些事情才能让你的页面「正确」跑起来。
-
-```
-bundle exec jekyll serve
-```
 
 1. 正确设置项目名称与分支。
 
