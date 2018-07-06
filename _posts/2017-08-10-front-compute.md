@@ -5,10 +5,10 @@ categories: JavaScript、算法
 description: js 学习笔记
 keywords: JavaScript, 算法
 ---
-##快速排序法两种
+## 快速排序法两种
 
-###方法一、阮一峰的版本（便于理解，但效率低些,用新数组来存放左右两边的内容）
-```javaScript
+### 方法一、阮一峰的版本（便于理解，但效率低些,用新数组来存放左右两边的内容）
+``` javaScript
 var quickSort = function(arr) {
 　　if (arr.length <= 1) { return arr; }
 　　var pivotIndex = Math.floor(arr.length / 2);
@@ -25,8 +25,8 @@ var quickSort = function(arr) {
 　　return quickSort(left).concat([pivot], quickSort(right));
 };
 ```
-###方法二、用指针来交换左右两边的内容
-```javaScript
+### 方法二、用指针来交换左右两边的内容
+``` javaScript
 // 交换的指针的函数
 function swap(items, firstIndex, secondIndex){
     var temp = items[firstIndex];
