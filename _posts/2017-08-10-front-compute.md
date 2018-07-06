@@ -7,7 +7,8 @@ keywords: JavaScript, 算法
 ---
 ## 快速排序法两种
 
-### 方法一、阮一峰的版本（便于理解，但效率低些,用新数组来存放左右两边的内容）
+### 方法一、阮一峰的版本
+注释：便于理解，但效率低些,用新数组来存放左右两边的内容
 ```javascript
 var quickSort = function(arr) {
 　　if (arr.length <= 1) { return arr; }
@@ -26,6 +27,7 @@ var quickSort = function(arr) {
 };
 ```
 ### 方法二、用指针来交换左右两边的内容
+注释：较为高效
 ```javascript
 // 交换的指针的函数
 function swap(items, firstIndex, secondIndex){
@@ -66,5 +68,22 @@ function quickSort(items, left, right) {
         }
     }
     return items;
+}
+```
+## 冒泡排序法
+
+```javascript
+function bubbleSort (arr){
+	for(var i=0;i<arr.length-1;i++){
+		for(var j=i+1;j<arr.length;j++){
+            //如果前面的数据比后面的大就交换
+			if(arr[i]>arr[j]){
+				var temp=arr[i];
+				arr[i]=arr[j];
+				arr[j]=temp;
+			}
+		}
+	} 
+	return arr;
 }
 ```
