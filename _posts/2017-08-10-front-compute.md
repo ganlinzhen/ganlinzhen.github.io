@@ -8,7 +8,7 @@ keywords: JavaScript, 算法
 ## 快速排序法两种
 
 ### 方法一、阮一峰的版本（便于理解，但效率低些,用新数组来存放左右两边的内容）
-``` javaScript
+``` javascript
 var quickSort = function(arr) {
 　　if (arr.length <= 1) { return arr; }
 　　var pivotIndex = Math.floor(arr.length / 2);
@@ -26,7 +26,7 @@ var quickSort = function(arr) {
 };
 ```
 ### 方法二、用指针来交换左右两边的内容
-``` javaScript
+``` javascript
 // 交换的指针的函数
 function swap(items, firstIndex, secondIndex){
     var temp = items[firstIndex];
