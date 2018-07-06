@@ -1,3 +1,10 @@
+---
+layout: post
+title: js 学习笔记
+categories: JavaScript
+description: js 学习笔记
+keywords: JavaScript, 构造函数
+---
 #### 一、Js 原生对象的一些方法：
 
 ##### 1.string：
